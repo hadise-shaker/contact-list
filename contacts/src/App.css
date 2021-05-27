@@ -8,6 +8,7 @@
   flex-wrap: wrap;
   width: 50%;
   margin: auto;
-  background-color: #19384a;
+  
   justify-content: center;
+  background-color: #19384a;
 }
