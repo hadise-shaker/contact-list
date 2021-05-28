@@ -9,7 +9,7 @@ const Search = () => {
     }
     console.log(myval);
     return (
-        <div>
+        <div className="search">
             <input type="text" onChange={(e)=>AddVal(e)} value={myval} className="input" placeholder="enter name"/>
          {/*   { !myval&& <List></List>} */}
             

@@ -25,9 +25,10 @@ const ContactCard = ({contact,onDelete}) => {
                 <p className="email"><span className="text-email">last:</span>{contact.last}</p>
                 <p className="phone"><span className="text-phone">phone:</span>{contact.phone}</p>
             </div>
-            <Button onClick={()=>onDelete(contact.id)} buttonLable="delete" ></Button>
+            
             {modal && <InfoModal name={name} /* lastname={contact.name.last} */></InfoModal>}
             </form>
+            <Button onClick={()=>onDelete(contact.id)} buttonLable="delete" ></Button>
         </div>
     )
 }

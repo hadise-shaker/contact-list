@@ -14,7 +14,7 @@
 .modal{
    background-color: #25333c;
    margin: auto;
-   box-shadow: 14px -23px #19b087;
+   /* box-shadow: 14px -23px #19b087; */
    border-radius: 10px;
    width: 35%;
    min-height: 5rem;

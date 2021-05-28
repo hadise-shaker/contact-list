@@ -73,16 +73,17 @@ function App() {
     <div className="App">
       <section>
         <form>
-          <input
+          {/*           <input
             placeholder="type here to filter"
             type="text"
             className="search"
-          />
+          /> */}
+          <Search />
         </form>
       </section>
       <section className="section2">
         <Button
-          buttonLable="add"
+          buttonLable="+"
           onClick={() => setshowAddTask(!showAddTask)}
         ></Button>
         {showAddTask && <AddContact action={addTask}></AddContact>}
@@ -91,7 +92,7 @@ function App() {
           /*  onclick={() => setshowAddTask(!showAddTask)} */
           onDelete={handleDelete}
         />
-        <Search />
+        {/* <Search /> */}
       </section>
     </div>
   );
