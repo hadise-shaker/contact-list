@@ -1,0 +1,10 @@
+.input{
+    width: 50%;
+    background-color: #214a60;
+    color: black;
+    font-size: 30px;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+}

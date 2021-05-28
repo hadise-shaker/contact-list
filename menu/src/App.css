@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+ li.tea-box {
+  list-style: none;
+  cursor: pointer;
+  
+}
+li.tea-box:hover{
+  color: #E91E63;
+}
+.container {
+  min-width: -8rem;
+  background: #fff;
+  color: #222;
+  border-top: .25rem solid #E91E63;
+  box-shadow: 0 2px 4px #212121;
+  padding: 2rem;
+  font-size: 2em;
+  width: 50%;
+  margin: auto;
+}
+.tea-box{
+  box-shadow: 0 2px 4px #212121;
+}
+a.btn-cancel,a.btn {
+  cursor: pointer;
+  margin: 3rem;
+  /* padding: 43px; */
+ 
+}
+a.btn-cancel:hover,a.btn:hover {
+color: #E91E63;
+
+}

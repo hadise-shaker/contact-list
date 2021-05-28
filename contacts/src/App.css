@@ -1,0 +1,13 @@
+.App {
+ 
+  width: 100%;
+}
+.section2{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  justify-content: space-around;
+  background-color: #19384a;
+}
